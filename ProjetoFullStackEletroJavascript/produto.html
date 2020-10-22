@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF - 8">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="javascript/produtos.js"></script>
+    <meta name="viewport" content="width=device-width">
+    <title> Produtos</title>
+</head>
+
+<body>
+
+
+    <!--Inicio do Menu -->
+    <header>
+        <div id="cabecalho">
+
+            <a href="index.html">
+                <img id="logo" src="./imagens/logofseletro.png" alt="Full Stack Eletro"> </a>
+
+
+            <nav id="menu">
+                <ul>
+                    <li><a class="menu" href="index.html">Inicio </a></li>
+                    <li><a class="menu" href="produto.html">Produtos </a> </li>
+                    <li><a class="menu" href="nossaslojas.html">Lojas </a> </li>
+                    <li><a class="menu" href="contato.html"> Contato </a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <!--Fim do Menu -->
+
+    <!-- cabecalho -->
+
+    <header class="titulo">
+        <hr>
+        <h2> Produtos</h2>
+        <hr>
+    </header>
+
+    <!-- fim do cabecalho -->
+
+
+
+    <!-- Seção de categoria -->
+<div class="categorias">
+    <h3> Categorias</h3>
+    <ul id="lista">
+       <li onclick="exibirTodos()">Todos (12)</li>
+        <li onclick="exibirCategoria ('geladeira')">Geladeiras (3)</li>
+        <li onclick="exibirCategoria ('fogao')">Fogões (2)</li>
+        <li onclick="exibirCategoria ('microonda')">Microondas (3)</li>
+        <li onclick="exibirCategoria ('lavadora')"> Lavadora de Roupas (2)</li>
+        <li onclick="exibirCategoria ('lavalouca')">Lava-Louças (2)</li>
+
+    </ul>
+    </div>
+
+    <!-- fim da categoria -->
+
+
+    <!-- Produtos -->
+    <section class="produtos">
+        
+        <!-- Box 1 -->
+
+        <div class="produto" id ="geladeira" style="display: block">
+            <img src=" ./imagens/Geladeira Electrolux 2 Portas Cycle Defrost 260L 127v Branco.jpg "  onclick="destaque(this)">
+            <br>
+            <p> Geladeira Eletrolux 2 Portas Cycle Defrost 260L 217v Branco</p>
+            <p class="preco1"><strike>R$ 1. 700,89 </strike> </p>
+            <p class="preco2"> R$ 1.444,90 </p>
+
+        </div>
+
+
+        <div class="produto" id ="geladeira" style="display: block">
+            <img src=" ./imagens/Continental Frost Free - Duplex 370L TC41S.jpg "   onclick="destaque(this)">
+            <br>
+            <p> Geladeira Continental Frost Free - Duplex 370L TC41S</p>
+
+            <p class="preco1"><strike>R$ 2.000,00 </strike> </p>
+            <p class="preco2"> R$ 1.800,49 </p>
+            <br>
+        </div>
+
+
+        <div class="produto" id ="geladeira" style="display: block">
+            <img src=" ./imagens/Continental Frost Free - Duplex Branco 472L TC56.jpg " onclick="destaque(this)">
+            <br>
+            <p> Geladeira Continental Frost Free - Duplex 472L TC56</p>
+            <p class="preco1"><strike>R$ 2.500,00 </strike> </p>
+            <p class="preco2"> R$ 2.249,49 </p>
+        </div>
+           
+            <!-- Box 2 -->
+
+        <div class="produto" id ="fogao">
+            <img src=" ./imagens/Fogão 4 Bocas Consul Acendimento Automático - CFO4 NARUNA.jpg " onclick="destaque(this)">
+            <br>
+            <p>Fogão 4 Bocas Consul Acendimento Automático - CFO4 NARUNA </p>
+            <p class="preco1"><strike>R$ 800,99 </strike> </p>
+            <p class="preco2"> R$ 750,89 </p>
+        </div>
+
+        <div class="produto" id ="fogao" style="display: block">
+            <img src=" ./imagens/Fogão 5 Bocas Consul Acendimento Automático.jpg " onclick="destaque(this)">
+            <br>
+            <p>Fogão 5 Bocas Consul Acendimento Automático </p>
+            <p class="preco1"><strike>R$ 800,99 </strike> </p>
+            <p class="preco2"> R$ 750,89 </p>
+        </div>
+
+            <!-- Box 3 -->
+
+        <div class="produto" id ="microonda" style="display: block">
+            <img src="./imagens/Micro-ondas Electrolux com Painel Integrado 31L MI41S - 220 Volts.jpg " onclick="destaque(this)">
+            <br>
+            <p>Micro-ondas Electrolux com Painel Integrado 31L MI41S - 220 Volts </p>
+            <p class="preco1"><strike>R$ 750,11 </strike> </p>
+            <p class="preco2"> R$ 611,10 </p>
+        </div>
+
+
+
+        <div class="produto" id ="microonda"  style="display: block">
+            <img src="./imagens/Micro-ondas Electrolux MTD30 - 20L.jpg "  onclick="destaque(this)">
+            <br>
+            <p>Micro-ondas Electrolux MTD30 - 20L </p>
+            <p class="preco1"><strike>R$ 510,99 </strike> </p>
+            <p class="preco2"> R$ 449,10 </p>
+        </div>
+
+
+        <div class="produto" id ="microonda" style="display: block">
+            <img src="./imagens/Microondas LG Easy Clean 30 L Branco 220V MS3052RA.jpg " onclick="destaque(this)">
+            <br>
+            <p>Microondas LG Easy Clean 30 L Branco 220V MS3052RA </p>
+            <p class="preco1"><strike>R$ 580,99 </strike> </p>
+            <p class="preco2"> R$ 534,99 </p>
+        </div>
+        
+        <!-- Box 4 -->
+
+        <div class="produto" id ="lavadora" style="display: block">
+            <img src="./imagens/Lavadora de Roupas Consul CWB09 ABANA - 9Kg 15 Programas de Lavagem.jpg " onclick="destaque(this)">
+            <br>
+            <p>Lavadora de Roupas Consul CWB09 ABANA - 9Kg 15 Programas de Lavagem</p>
+            <p class="preco1"><strike>R$ 1.900,89 </strike> </p>
+            <p class="preco2"> R$ 1.089,90 </p>
+        </div>
+
+        <div class="produto" id ="lavadora" style="display: block">
+            <img src="./imagens/Lavadora de Roupas Electrolux LAC13 - 13Kg 12 Programas de Lavagem.jpg " onclick="destaque(this)">
+            <br>
+            <p>Lavadora de Roupas Electrolux LAC13 - 13Kg 12 Programas de Lavagem</p>
+            <p class="preco1"><strike>R$ 1.700,89 </strike> </p>
+            <p class="preco2"> R$ 1.400,90 </p>
+        </div>
+        
+        <!-- Box 5 -->
+
+        <div class="produto" id ="lavalouca" style="display: block">
+            <img src="./imagens/Lava-Louças Brastemp Ative! BLF08 AB - 8 Serviços.jpg " onclick="destaque(this)">
+            <br>
+            <p>Lava-Louças Brastemp Ative! BLF08 AB - 8 Serviços </p>
+            <p class="preco1"><strike>R$ 2.077,89 </strike> </p>
+            <p class="preco2"> R$ 1.888,99 </p>
+        </div>
+
+
+        <div class="produto" id ="lavalouca" style="display: block">
+            <img src="./imagens/Lava-louças Branca 8 Serviços (LV08B) - Electrolux.jpg " onclick="destaque(this)">
+            <br>
+            <p>Lava-louças Branca 8 Serviços (LV08B) - Electrolux</p>
+            <p class="preco1"><strike>R$ 2.500,89 </strike> </p>
+            <p class="preco2"> R$ 2.089,19 </p>
+        </div>
+
+
+    </section>
+<!-- Fim-dos-Produtos -->
+   
+    <br>
+    <br>
+
+    <!-- Rodapé -->
+    <footer>
+        <div id="formas_pagamento">
+            <h4>Formas de Pagamento</h4>
+            <img src="./imagens/forma de pagamento.png " alt="formas de pagamento ">
+
+            <p id="copy"> &copy; Recode Pro 2020</p>
+        </div>
+    </footer>
+
+    <!-- Fim do Rodapé -->
+
+</body>
+
+</html>
