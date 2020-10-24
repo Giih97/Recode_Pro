@@ -52,3 +52,25 @@ insert into produtos (categoria,descricao,preco,preco_venda,imagem)
  
  insert into produtos (categoria,descricao,preco,preco_venda,imagem)
  values ("lava_louca" , " Branca 8 Serviços (LV08B) - Electrolux", 2500.89,2089.19,"file:///C:/Users/Live%20do%20Fabinho/Desktop/Gilda/FullStackEletroJavascript/imagens/Lava-lou%C3%A7as%20Branca%208%20Servi%C3%A7os%20(LV08B)%20-%20Electrolux.jpg");
+
+
+create table pedidos (
+id int auto_increment
+nome_do_cliente varchar (100),
+endereço varchar (100),
+telefone int(11),
+nome_do_prod varchar(150),
+valor_unit float,
+Quantidade int,
+valor_total float
+);
+insert into pedidos values
+(1 "Cristiana Almeida", "Av.São João, 500", 1198887898,  "geladeira",1444.90, 2,889.80),
+(2 "Rose Pereira","Av.Chico Pontes,58", 1198887898, "microondas",611.1,1,611.1),
+(3 "Pedro Henrique", "Av.Cruzeiro do Sul,580", 1198887898, "fogão",750.89,1,750.89),
+(4, "Fabiana Rocha","Av.Guilherme Cotching, 700", 1198974582, "fogão", 750.89, 2 ,1501.78),
+(5, "Tom Ribeiro","Largo da Concordia,80", 119857432, "lava-louca", 1888.99,1,1888.99),
+(6, "Tomás Brito","Rua:Curuça,89", 1198574520, "lava-louca", 1888.99,1,1888.99);
+
+
+
