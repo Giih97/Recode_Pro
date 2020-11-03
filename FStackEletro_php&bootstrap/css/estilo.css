@@ -1,0 +1,186 @@
+html,
+body {
+
+    background-color: #ffffff;
+    font-family: Arial;
+   
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#cabecalho {
+    background-color: #FF6600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-spacing: 10px;
+    padding: 20px;
+
+}
+
+#logo {
+    width: 50%;
+    position: relative;
+   
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu li {
+    display: inline;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 15pt;
+
+}
+
+#menu .menu {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+    line-height: 30px;
+    display: inline;
+
+}
+/*index */
+
+.container-fluid{
+    background-color: black;
+    color:white;
+    font-size: 15pt;
+}
+#mainIndex{
+    text-align: center;
+}
+
+
+.figura img{
+    width: 300px;
+
+}
+.login h4{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+
+#formas_pagamento{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+#formas_pagamento img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 20%;
+
+}
+.copyRecode{
+    display: flex;
+    justify-content: center;
+}
+    
+
+    /* pagina Produtos */
+#lista {
+    float: left;
+    width: 160px;
+    margin-left: 15px;
+    padding-left: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid rgba(0,0,0, 0.3);
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+    
+}
+
+#lista li{
+    width: 150px;
+}
+
+.produto img {
+   width: 100px
+    
+}
+
+.produto {
+   width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    margin:10px;
+    font-size:12px;
+    
+    
+}
+.produtos{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+    
+}
+
+ .preco2{
+    color: orangered;
+    font-size: 20px;
+}
+
+/* pagina Nossas lojas */
+
+#principal{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+   
+   
+}
+
+
+.loja{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    text-align: center;
+    margin:10px;
+   
+}
+
+/*pagina de contato*/
+
+#main{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin: 20px;
+    font-size: 18px;
+}
+#email2 {
+    border: 1px ;
+    width: 250px;
+    height: 200px;
+
+}
+#what {
+    border: 1px ;
+    width: 250px;
+    height: 200px;
+}
+#msg {
+    border: 1px ;
+    width: 250px;
+    height: 200px; 
+}
