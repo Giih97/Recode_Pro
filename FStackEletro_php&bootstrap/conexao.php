@@ -2,7 +2,7 @@ c
 <?php
 $severname= "localhost";
 $username = "root";
-$password = "recode123"; 
+$password = " "; 
 $database = "lojafullstackeletro";
 
 //criando conexao
