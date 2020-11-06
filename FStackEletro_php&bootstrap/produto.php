@@ -29,11 +29,11 @@ require "conexao.php";
 
     <!-- cabecalho -->
 
-        <div class=container-fluid>
+    <div class=container-fluid>
         <hr>
         <h2> Produtos</h2>
         <hr>
-        </div>
+    </div>
 
     <!-- fim do cabecalho -->
 
@@ -54,7 +54,7 @@ require "conexao.php";
     </div>
 
     <!-- fim da categoria -->
-  
+
 
 
     <!-- Produtos -->
@@ -67,17 +67,17 @@ require "conexao.php";
         if($result->num_rows >0){
             while($rows=$result->fetch_assoc()){
             ?>
-        
-    
+
+
 
 
         <div class="produto" style="display: block" id="<?php echo $rows["categoria"];?>">
-            <img src= ".<?php echo $rows["imagem"]?>" onclick=" destaque(this)">
+            <img src=".<?php echo $rows["imagem"]?>" onclick=" destaque(this)">
             <hr>
             <div class="descricao"><?php echo $rows["descricao"];?></div>
             <div class="preco1"><strike>R$ <?php echo $rows["preco_venda"]; ?> </strike> </div>
             <div class="preco2"> R$ <?php echo $rows["preco"]; ?> </div>
-            
+
         </div>
         <?php
         }
@@ -91,15 +91,23 @@ require "conexao.php";
     <!-- Fim-dos-Produtos -->
 
     <br>
-    
+
     <footer>
-    <!-- Rodapé -->
-    <?php
+        <!-- Rodapé -->
+        <?php
         include("footer.html");
     ?>
-    <!-- Fim do Rodapé -->
+        <!-- Fim do Rodapé -->
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

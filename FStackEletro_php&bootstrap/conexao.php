@@ -1,4 +1,3 @@
-c
 <?php
 $severname= "localhost";
 $username = "root";

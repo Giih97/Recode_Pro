@@ -1,5 +1,5 @@
 <?php
-include "conexao.php";
+require_once "conexao.php";
 
 if ( isset( $_POST['nome'] ) && isset( $_POST['msg'] ) ) {
     $nome = $_POST['nome'];
