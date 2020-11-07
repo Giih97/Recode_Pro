@@ -68,5 +68,10 @@ insert into pedidos values
 (5, "Tom Ribeiro","Largo da Concordia,80", 119857432, "lava-louca", 1888.99,1,1888.99),
 (6, "Tomás Brito","Rua:Curuça,89", 1198574520, "lava-louca", 1888.99,1,1888.99);
 
-
+create table comentarios (
+id int auto_increment,
+nome varchar(70),
+msg varchar(150),
+data datetime default now(),
+primary key (id));
 
