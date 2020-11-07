@@ -17,11 +17,6 @@ values ("geladeira" , "Eletrolux 2 Portas Cycle Defrost 260L 217v Branco",1700.8
 insert into produtos (categoria,descricao,preco,preco_venda)
  values ("geladeira" , " Continental Frost Free - Duplex 370L TC41S", 2000.00,1800.49,"/imagens/Continental Frost Free - Duplex 370L TC41S.jpg");
 
-select * from produtos;
-
-alter table produtos modify imagem varchar(500);
-
-
 insert into produtos (categoria,descricao,preco,preco_venda,imagem)
  values ("geladeira" , " Continental Frost Free - Duplex 472L TC56", 2500.00,2249.49,"/imagens/Continental%20Frost%20Free%20-%20Duplex%20Branco%20472L%20TC56.jpg ");
  
