@@ -1,6 +1,6 @@
 
 
-FullStackEletro
+**FullStackEletro**
 
 A loja do programador (a)
 
@@ -20,14 +20,14 @@ Criar banco de dados MySQL na Porta 3306 com nome Fstackeletro. Executar comando
 
 
 -A Fazer.
- [X]Criação do HTML.
- [X]Criação do CSS.
- [X]Criação do JavaScript.
- [X]Criação do Repositório no GitHub.
- [X]Criação do Banco de dados.
- [X]Criação do PHP.
- [X]Criação do README.md.
- [X]Adicionar Bootstrap.
- [ ] React js
- [ ] JSON
+-[X]Criação do HTML.
+-[X]Criação do CSS.
+-[X]Criação do JavaScript.
+-[X]Criação do Repositório no GitHub.
+-[X]Criação do Banco de dados.
+-[X]Criação do PHP.
+-[X]Criação do README.md.
+-[X]Adicionar Bootstrap.
+-[ ] React js
+-[ ] JSON
  
