@@ -1,19 +1,25 @@
-FullStackEletro <h1>
-A loja do programador (a)<h3>
-Técnologias do projeto.<h3>
-Projeto criado com PHP, MySQL.
 
-Instalação do projeto.<h3>
+
+FullStackEletro
+
+A loja do programador (a)
+
+Técnologias do projeto
+  
+Projeto criado com PHP, MySQL.<p>
+
+**Instalação do projeto.**
   
 Para execução é necessário ter o WAMP instalado e após o clone da pasta, colar no diretório "C:\wamp64\www" e abrir no localhost
-obs: Não testado no XAMP.
+obs: Não testado no XAMP.<p>
 
-Ultima versão está na pasta : FStackEletro_php&bootstrap
+Ultima versão está na pasta : FStackEletro_php&bootstrap<p>
 
-git clone https://github.com/Giih97/Recode_Pro.git
-Criar banco de dados MySQL na Porta 3306 com nome Fstackeletro. Executar comando SQL dentro da pasta BancoDeDados_mysql_FSE.
+git clone https://github.com/Giih97/Recode_Pro.git<p>
+Criar banco de dados MySQL na Porta 3306 com nome Fstackeletro. Executar comando SQL dentro da pasta BancoDeDados_mysql_FSE.<p>
 
-A Fazer.<h6>
+
+A Fazer.
  - [X]Criação do HTML.
  - [X]Criação do CSS.
  - [X]Criação do JavaScript.
