@@ -13,7 +13,7 @@ body{
 
 
 #cabecalho {
-    background-color: #FF6600;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,6 +21,7 @@ body{
     padding: 20px;
 
 }
+
 
 #logo {
     width: 50%;

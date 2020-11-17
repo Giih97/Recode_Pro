@@ -1,8 +1,8 @@
 <?php
 $severname= "localhost";
 $username = "root";
-$password = " "; 
-$database = "lojafullstackeletro";
+$password = ""; 
+$database = "fstackeletro";
 
 //criando conexao
 $conect = mysqli_connect($severname,$username,$password,$database);
